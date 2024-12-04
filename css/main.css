@@ -9,6 +9,11 @@ main {
   background: #111111;
 }
 
+a {
+  text-decoration: none;
+  color: #31a8dd;
+}
+
 .banner {
   background: linear-gradient(
       180deg,
@@ -180,4 +185,28 @@ main {
   width: 792px;
   color: #f8f1f1;
   font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(51, 168, 187, 0.4) 0%,
+      rgba(20, 114, 183, 1) 100%
+    );
+}
+
+footer p {
+  color: #f8f1f1;
 }
